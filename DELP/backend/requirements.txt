@@ -1,0 +1,19 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14,<4.0
+psycopg2-binary>=2.9,<3.0
+python-decouple>=3.8,<4.0
+whitenoise>=6.5,<7.0
+django-cors-headers>=4.3,<5.0
+
+# For development
+ipython>=8.0,<9.0
+django-extensions>=3.2,<4.0
+
+# Testing
+pytest>=7.4,<8.0
+pytest-django>=4.5,<5.0
+requests>=2.31,<3.0
+
+# Chart dependencies
+plotly>=5.0,<6.0
+Pillow>=10.0,<11.0
