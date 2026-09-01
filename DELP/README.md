@@ -166,6 +166,12 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # Setup Environment Variables
+ Install PostgreSQL on their own machine.
+2. Create the database state_school_leadership_portal.
+3. Setup .env with their local database credentials.
+4. Run Migrations: python manage.py migrate (This builds the "house").
+5. Run the Seed: python manage.py seed_pilot (This puts the "furniture/data" inside the house).
+
 # Create a .env file and add:
 # DB_NAME=delp_db
 # DB_USER=delp_user
